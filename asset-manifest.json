@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/praveenorugantitech-tv-series-reactjs/static/css/main.4ac92964.chunk.css",
+    "main.js": "/praveenorugantitech-tv-series-reactjs/static/js/main.1d3aa233.chunk.js",
+    "runtime-main.js": "/praveenorugantitech-tv-series-reactjs/static/js/runtime-main.06167bb4.js",
+    "static/js/2.1b79c16d.chunk.js": "/praveenorugantitech-tv-series-reactjs/static/js/2.1b79c16d.chunk.js",
+    "index.html": "/praveenorugantitech-tv-series-reactjs/index.html",
+    "static/js/2.1b79c16d.chunk.js.LICENSE.txt": "/praveenorugantitech-tv-series-reactjs/static/js/2.1b79c16d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06167bb4.js",
+    "static/js/2.1b79c16d.chunk.js",
+    "static/css/main.4ac92964.chunk.css",
+    "static/js/main.1d3aa233.chunk.js"
+  ]
+}
