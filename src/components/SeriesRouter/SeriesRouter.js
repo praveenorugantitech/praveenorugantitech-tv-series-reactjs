@@ -5,8 +5,8 @@ import SingleSeries from "../../containers/SingleSeries/SingleSeries";
 
 const SeriesRouter = props => (
   <Switch>
-    <Route exact path="/" component={Series} />
-    <Route path="/series/:id" component={SingleSeries} />
+    <Route exact path="/praveenorugantitech-tv-series-reactjs" component={Series} />
+    <Route path="/praveenorugantitech-tv-series-reactjs/series/:id" component={SingleSeries} />
   </Switch>
 );
 export default SeriesRouter;

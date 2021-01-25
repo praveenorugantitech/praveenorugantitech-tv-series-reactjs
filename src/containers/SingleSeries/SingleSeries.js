@@ -42,7 +42,7 @@ class SingleSeries extends Component {
     const { id } = this.props.match.params;
     console.log(this.props);
 
-    fetch(`http://api.tvmaze.com/shows/${id}?embed=episodes`)
+    fetch(`https://api.tvmaze.com/shows/${id}?embed=episodes`)
       .then((response) => response.json())
       .then((json) => this.setState({ show: json, open: true }));
   }
@@ -59,7 +59,7 @@ class SingleSeries extends Component {
           >
             <AppBar style={styles.appBar}>
               <Toolbar>
-                <Link to={"/"}>
+                <Link to={"/praveenorugantitech-tv-series-reactjs/"}>
                   <IconButton
                     color="default"
                     onClick={this.handleClose}

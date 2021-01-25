@@ -20,7 +20,7 @@ class Series extends Component {
   onSeriesInputChange = (event) => {
     event.preventDefault();
     this.setState({ seriesName: event.target.value, isFetching: true });
-    fetch(`http://api.tvmaze.com/search/shows?q=${event.target.value}`)
+    fetch(`https://api.tvmaze.com/search/shows?q=${event.target.value}`)
       .then((response) => response.json())
       .then((json) => this.setState({ series: json, isFetching: false }))
       .catch((error) => console.log(error));

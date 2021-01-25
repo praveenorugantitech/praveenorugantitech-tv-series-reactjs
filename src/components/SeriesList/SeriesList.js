@@ -6,7 +6,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import "./SeriesList.css";
 
 const SeriesListItem = ({ series }) => (
-  <Link to={`/series/${series.show.id}`}>
+  <Link to={`/praveenorugantitech-tv-series-reactjs/series/${series.show.id}`}>
     <ListItem button>
       <ListItemText primary={series.show.name} />
     </ListItem>
