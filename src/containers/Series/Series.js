@@ -31,7 +31,7 @@ class Series extends Component {
     return (
       <div>
         <Typography variant="h6" gutterBottom align="center">
-          Here you can find some series
+          Here you can find all of your most loved series
         </Typography>
 
         {/* Input for searching series */}

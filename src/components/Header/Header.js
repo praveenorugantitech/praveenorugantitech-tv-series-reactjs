@@ -13,7 +13,7 @@ const Header = () => {
             align="center"
             style={{ flex: 1 }}
           >
-            TV Series
+            TV Series List
           </Typography>
         </Toolbar>
       </AppBar>

@@ -1,4 +1,4 @@
-# TV Series Search developed using React JS, TVMaze API and Material UI
+# TV Series List developed using React JS, TVMaze API and Material UI
 
 <div>
 <img align="right" width="100%"  src="./src/images/screenshot1.PNG" />
